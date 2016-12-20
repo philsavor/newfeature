@@ -2,6 +2,7 @@ package com.sample.newfeature;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -162,7 +163,8 @@ public class ExtractFeature extends UDF {
 		featureList.add(fCsOriginalCommentCount);
 		featureList.add(fOriginalShareCount);
 		featureList.add(fCsOriginalShareCount);
-
+		Collections.sort(featureList);
+		
 		builder.append(cls + " "); 
 		for(Feature f : featureList){
 			if(f.getValue() != null)
