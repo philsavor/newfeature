@@ -40,7 +40,7 @@
 					<descriptors>
 						<descriptor>assembly/jar.xml</descriptor>
 					</descriptors>
-					<finalName>ttudf</finalName>
+					<finalName>newttudf</finalName>
 					<outputDirectory>${project.build.directory}</outputDirectory>
 					<appendAssemblyId>false</appendAssemblyId>
 				</configuration>
